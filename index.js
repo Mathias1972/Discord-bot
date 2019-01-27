@@ -13,4 +13,4 @@ bot.on("Ready",function(){
     console.log("Ready to Ban some players!);")
 });
 
-bot.login(TOKEN);
+client.login(procces.env.BOT_TOKEN);
